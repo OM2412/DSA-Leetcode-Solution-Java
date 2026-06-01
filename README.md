@@ -3,14 +3,14 @@
 A collection of Data Structures and Algorithms (DSA) solutions for LeetCode problems, implemented in Java.
 
 ## Progress
-- Total solved: 5
-- Easy: 4 | Medium: 1
+- Total solved: 6
+- Easy: 5 | Medium: 1
 
 ## Topics
 | Topic | Solved |
 |-------|--------|
 | Arrays | 5 |
-| Binary Search | 0 |
+| Binary Search | 1 |
 
 ## Solutions
 
@@ -20,6 +20,9 @@ A collection of Data Structures and Algorithms (DSA) solutions for LeetCode prob
 3. **LeetCode #217 - Contains Duplicate** - Sorting O(n log n)
 4. **LeetCode #283 - Move Zeroes** - Two-Pointer O(n)
 5. **LeetCode #53 - Maximum Subarray** - Kadane's Algorithm O(n)
+
+### Binary Search
+1. **LeetCode #704 - Binary Search** - Standard Binary Search O(log n)
 
 ---
 
