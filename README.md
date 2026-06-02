@@ -3,14 +3,14 @@
 A collection of Data Structures and Algorithms (DSA) solutions for LeetCode problems, implemented in Java.
 
 ## Progress
-- Total solved: 6
-- Easy: 5 | Medium: 1
+- Total solved: 7
+- Easy: 6 | Medium: 1
 
 ## Topics
 | Topic | Solved |
 |-------|--------|
 | Arrays | 5 |
-| Binary Search | 1 |
+| Binary Search | 2 |
 
 ## Solutions
 
@@ -23,6 +23,7 @@ A collection of Data Structures and Algorithms (DSA) solutions for LeetCode prob
 
 ### Binary Search
 1. **LeetCode #704 - Binary Search** - Standard Binary Search O(log n)
+2. **LeetCode #35 - Search Insert Position** - Modified Binary Search O(log n)
 
 ---
 
