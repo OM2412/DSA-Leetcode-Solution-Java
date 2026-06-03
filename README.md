@@ -3,14 +3,14 @@
 A collection of Data Structures and Algorithms (DSA) solutions for LeetCode problems, implemented in Java.
 
 ## Progress
-- Total solved: 9
-- Easy: 8 | Medium: 1
+- Total solved: 12
+- Easy: 10 | Medium: 2
 
 ## Topics
 | Topic | Solved |
 |-------|--------|
 | Arrays | 5 |
-| Binary Search | 4 |
+| Binary Search | 7 |
 
 ## Solutions
 
@@ -26,6 +26,9 @@ A collection of Data Structures and Algorithms (DSA) solutions for LeetCode prob
 2. **LeetCode #35 - Search Insert Position** - Modified Binary Search O(log n)
 3. **LeetCode #278 - First Bad Version** - Find First Occurrence O(log n)
 4. **LeetCode #69 - Sqrt(x)** - Find Exact/Floor Value O(log x)
+5. **Leetcode #74-    2D Matrix-O(m+n)
+6. **Leetcode #367- Valid_perfect_square
+7. **Leetcode #374- GUess NUmber
 
 ---
 
