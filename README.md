@@ -29,7 +29,7 @@ A collection of Data Structures and Algorithms (DSA) solutions for LeetCode prob
 5. **Leetcode #74-    2D Matrix-O(m+n)
 6. **Leetcode #367- Valid_perfect_square
 7. **Leetcode #374- GUess NUmber
-
+8. **Leetcode #268- Mising number through Sorting
 ---
 
 **Goal:** Build a comprehensive DSA solution library while maintaining a consistent green GitHub contribution graph! 🟢
