@@ -3,14 +3,15 @@
 A collection of Data Structures and Algorithms (DSA) solutions for LeetCode problems, implemented in Java.
 
 ## Progress
-- Total solved: 13
-- Easy: 11 | Medium: 2
+- Total solved: 17
+- Easy: 13 | Medium: 3| Hard:1
 
 ## Topics
 | Topic | Solved |
 |-------|--------|
 | Arrays | 5 |
-| Binary Search | 8|
+| Binary Search | 12| Related Sorting 
+
 
 ## Solutions
 
@@ -30,6 +31,10 @@ A collection of Data Structures and Algorithms (DSA) solutions for LeetCode prob
 6. **Leetcode #367- Valid_perfect_square
 7. **Leetcode #374- GUess NUmber
 8. **Leetcode #268- Mising number through Sorting
+9. **Leetcode #448- Find all disappeared number #Cycle sort
+10. **Leetcode #287- find the duplicate #Cycle sort
+11. **Leetcode #645- Set mismatch #Cycle sort
+12. **Leetcode #41- First missing positive #Cycle sort
 ---
 
 **Goal:** Build a comprehensive DSA solution library while maintaining a consistent green GitHub contribution graph! 🟢
