@@ -3,14 +3,14 @@
 A collection of Data Structures and Algorithms (DSA) solutions for LeetCode problems, implemented in Java.
 
 ## Progress
-- Total solved: 12
-- Easy: 10 | Medium: 2
+- Total solved: 13
+- Easy: 11 | Medium: 2
 
 ## Topics
 | Topic | Solved |
 |-------|--------|
 | Arrays | 5 |
-| Binary Search | 7 |
+| Binary Search | 8|
 
 ## Solutions
 
