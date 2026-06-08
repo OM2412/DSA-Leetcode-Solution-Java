@@ -1,0 +1,60 @@
+#COUNTING ARRAY
+class Solution {
+    public int findDuplicate(int[] nums) {
+
+        // Size of array
+        int result = nums.length;
+
+        // Count array to store frequency of each number
+        int[] count = new int[result + 1];
+
+        // Traverse the given array
+        for (int i = 0; i < result; i++) {
+
+            // Increase frequency of current number
+            count[nums[i]]++;
+
+            // If frequency becomes greater than 1,
+            // this number is the duplicate
+            if (count[nums[i]] > 1) {
+                return nums[i];
+            }
+        }
+
+        // Default return (problem guarantees a duplicate exists)
+        return result;
+    }
+}
+#CYCLE SORT
+class Solution {
+    public int findDuplicate(int[] nums) {
+
+        int i = 0;
+
+        while (i < nums.length) {
+
+            // Correct index of current number
+            int correct = nums[i] - 1;
+
+            // If current number is not at its correct position
+            if (nums[i] != nums[correct]) {
+                swap(nums, i, correct);
+            }
+            // If number is already at correct position
+            else {
+                if (i != correct) {
+                    return nums[i];
+                }
+                i++;
+            }
+        }
+
+        return -1;
+    }
+
+    public void swap(int[] nums, int a, int b) {
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
+    }
+}

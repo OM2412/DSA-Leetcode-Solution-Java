@@ -1,0 +1,42 @@
+class Solution {
+    public int[] findErrorNums(int[] nums) {
+
+        // Start from index 0
+        int i = 0;
+
+        // Place every number at its correct index
+        while (i < nums.length) {
+
+            // Correct index of current number
+            int correct = nums[i] - 1;
+
+            // Swap if current number is not at its correct position
+            if (nums[i] != nums[correct]) {
+                swap(nums, i, correct);
+            } else {
+                i++;
+            }
+        }
+
+        // Find duplicate and missing number
+        for (int index = 0; index < nums.length; index++) {
+
+            // Number is not at its correct position
+            if (nums[index] != index + 1) {
+
+                // nums[index] = duplicate number
+                // index + 1 = missing number
+                return new int[]{nums[index], index + 1};
+            }
+        }
+
+        return new int[]{-1, -1};
+    }
+
+    // Swap two elements
+    static void swap(int[] nums, int a, int b) {
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
+    }
+}

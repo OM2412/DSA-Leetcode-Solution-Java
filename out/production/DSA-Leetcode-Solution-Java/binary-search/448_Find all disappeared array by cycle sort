@@ -1,0 +1,65 @@
+class Solution {
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+
+        // Start from index 0
+        int i = 0;
+
+        // Store array length
+        int n = nums.length;
+
+        // Cyclic Sort: Place every number at its correct index
+        while (i < n) {
+
+            // Correct index for current number
+            // Example: 1 -> index 0, 2 -> index 1, ..., n -> index n-1
+            int correct = nums[i] - 1;
+
+            // If current number is not at its correct position,
+            // swap it with the element at its correct index
+            if (nums[i] != nums[correct]) {
+                swap(nums, i, correct);
+            }
+
+            // If already at correct position (or duplicate exists),
+            // move to the next index
+            else {
+                i++;
+            }
+        }
+
+        // List to store all missing numbers
+        List<Integer> ans = new ArrayList<>();
+
+        // Check every index after cyclic sort
+        for (int j = 0; j < n; j++) {
+
+            // If value is not equal to index + 1,
+            // then index + 1 is missing from the array
+            if (nums[j] != j + 1) {
+                ans.add(j + 1);
+            }
+        }
+
+        // Return all missing numbers
+        return ans;
+    }
+
+    // Function to swap two elements in the array
+    public void swap(int[] nums, int a, int b) {
+
+        // Store first value temporarily
+        int temp = nums[a];
+
+        // Put second value at first position
+        nums[a] = nums[b];
+
+        // Put first value at second position
+        nums[b] = temp;
+    }
+}
+Short Summary
+Use Cyclic Sort to place each number at index number - 1.
+After sorting, if nums[i] != i + 1, then i + 1 is missing.
+Add all such numbers to the answer list.
+Time Complexity: O(n)
+Space Complexity: O(1) (excluding output list).
