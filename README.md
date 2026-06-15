@@ -3,7 +3,7 @@
 A collection of Data Structures and Algorithms (DSA) solutions for LeetCode problems, implemented in Java.
 
 ## Progress
-- Total solved: 18
+- Total solved: 17
 - Easy: 13 | Medium: 3| Hard:1
 
 ## Topics
