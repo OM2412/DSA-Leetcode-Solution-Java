@@ -1,7 +1,7 @@
 package Recursion.LinearSearch;
 
-public class Target {
-    public static void main(String[] args) {
+ class Target{
+     static void main() {
         int[] arr={1,2,9,6};
 
         System.out.println(target(arr,0,6));
